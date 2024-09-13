@@ -1,4 +1,4 @@
-# Predictive Execution
+# Code Execution lastest update Sep/13/2024
 In this paper, we advocate for an execution paradigm called predictive execution. In predictive execution, with a specific input, the execution is not carried out with the computer performing the instruction in the program. Instead, a trained machine learning model predicts the execution steps and as a result, the execution trace corresponding to the input is derived without actual execution.
 The predictive execution paradigm has the potential to improve efficiency and effectiveness in software testing, fault localization, fuzzing testing, and early bug detection. We propose PredEx, a predictive executor for Python programs. The principle of PredEx is
 a blended analysis between program analysis and Large Language Model (LLM). We break down the task of predicting the execution into smaller sub-tasks and leverage the deterministic nature when an execution order can be deterministically decided. When it is not certain, we use predictive backward slicing and the predicted
